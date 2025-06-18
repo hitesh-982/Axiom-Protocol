@@ -62,7 +62,7 @@ interface IAgentRegistry {
         bool registered,
         uint256 nftTokenId 
     );
-
+    
     function nextAgentId() external view returns (uint256);
 
     // Inherited from Ownable, required for proper interface definition
